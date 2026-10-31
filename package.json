@@ -1,0 +1,15 @@
+{
+  "name": "yt-account-creator-ai",
+  "version": "1.0.0",
+  "description": "An AI-driven browser automation tool to set up a new YouTube channel",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-yt-account": "./index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.42.0",
+    "openai": "^4.0.0"
+  }
+}
